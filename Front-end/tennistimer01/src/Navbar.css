@@ -1,0 +1,20 @@
+/* Navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: top 0.3s; /* Add a smooth transition for the 'top' property */
+  }
+  
+  /* Add a class for a scrolled state */
+  .navbar.scrolled {
+    top: -80px; /* Adjust as needed to hide the navbar when scrolled down */
+  }
+  
